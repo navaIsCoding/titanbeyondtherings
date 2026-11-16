@@ -1,15 +1,25 @@
 const quizData = [
     {
-      question: "What is the capital of France?",
-      options: ["Paris", "Madrid", "Rome", "Berlin"],
-      answer: "Paris"
+      question: "What is the reason for Titan’s haziness in “Titan Beyond the Rings”? ",
+      options: ["The cameras on Cassini could not capture Titan", "It is actually a star", "Titan’s atmosphere", "Titan has large amounts of radiation"],
+      answer: "Titan’s atmosphere"
     },
     {
-      question: "What is the largest planet in our solar system?",
-      options: ["Jupiter", "Saturn", "Mars", "Earth"],
-      answer: "Jupiter"
+      question: "The rings of Saturn contain small moons",
+      options: ["True", "False"],
+      answer: "True"
     },
-    // Add more questions here...
+    {
+      question: "Titan can be “seen” better with the power of ___",
+      options: ["Infrared", "Better glasses", "A thermal camera"],
+      answer: "Infrared"
+    },
+    {
+      question: "Saturn’s rings have the Encke Gap which contains ___",
+      options: ["Nothing as it is a gap", "Pan and several thin knotted ringlets"],
+      answer: "Pan and several thin knotted ringlets"
+    },
+    
   ];
   
   const questionElement = document.getElementById("question");

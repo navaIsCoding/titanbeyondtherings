@@ -41,7 +41,7 @@ img {
 
 /* Give sections height so you can actually scroll */
 section {
-  height: 100vh;
+
   padding: 40px;
   box-sizing: border-box;
   border-bottom: 1px solid #ddd;
